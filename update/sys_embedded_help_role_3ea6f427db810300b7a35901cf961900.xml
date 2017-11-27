@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_37684_xlm_snow_t.user" name="x_37684_xlm_snow_t.user">72a6b427db810300b7a35901cf9619ff</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-12 20:14:12</sys_created_on>
+        <sys_id>3ea6f427db810300b7a35901cf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>72a6b427db810300b7a35901cf9619ff</sys_name>
+        <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3ea6f427db810300b7a35901cf961900</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-12 20:14:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

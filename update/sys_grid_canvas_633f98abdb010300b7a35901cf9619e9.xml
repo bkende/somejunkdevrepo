@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2017-11-27 21:52:43">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA xLM Dashboard">273f98abdb010300b7a35901cf9619e8</legacy_page>
+        <name>PA New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+        <sys_id>633f98abdb010300b7a35901cf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+        <sys_update_name>sys_grid_canvas_633f98abdb010300b7a35901cf9619e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-12 18:31:52</sys_updated_on>
+        <related_items_node>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab">633f98abdb010300b7a35901cf9619e9</grid_canvas>
+                <height>6</height>
+                <portal_widget display_value="Created 2017-09-12 11:31:52">e33f9c2bdb410300b7a35901cf961950</portal_widget>
+                <posx>0</posx>
+                <posy>30</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+                <sys_id>a73f9c2bdb410300b7a35901cf961952</sys_id>
+                <sys_mod_count>3</sys_mod_count>
+                <sys_name>633f98abdb010300b7a35901cf9619e9</sys_name>
+                <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+                <sys_policy/>
+                <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_a73f9c2bdb410300b7a35901cf961952</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                <width>6</width>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone1</dropzone>
+                        <offset>0</offset>
+                        <page display_value="PA xLM Dashboard">273f98abdb010300b7a35901cf9619e8</page>
+                        <summary>New Page</summary>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+                        <sys_id>e33f9c2bdb410300b7a35901cf961950</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-09-12 18:31:52</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab">633f98abdb010300b7a35901cf9619e9</grid_canvas>
+                                <height>6</height>
+                                <portal_widget display_value="Created 2017-09-12 11:31:52">e33f9c2bdb410300b7a35901cf961950</portal_widget>
+                                <posx>0</posx>
+                                <posy>30</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+                                <sys_id>a73f9c2bdb410300b7a35901cf961952</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_name>633f98abdb010300b7a35901cf9619e9</sys_name>
+                                <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+                                <sys_policy/>
+                                <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_a73f9c2bdb410300b7a35901cf961952</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                                <width>6</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2017-09-12 11:31:52">e33f9c2bdb410300b7a35901cf961950</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+                                <sys_id>a33f9c2bdb410300b7a35901cf961951</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:31:52</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderGadget</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 2017-09-12 11:31:52">e33f9c2bdb410300b7a35901cf961950</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+                                <sys_id>a73f9c2bdb410300b7a35901cf961950</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:31:52</sys_updated_on>
+                                <value>new</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2017-09-12 11:31:52">e33f9c2bdb410300b7a35901cf961950</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:31:52</sys_created_on>
+                                <sys_id>ef3f9c2bdb410300b7a35901cf961950</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:31:52</sys_updated_on>
+                                <value>New Page</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA xLM Dashboard">273f98abdb010300b7a35901cf9619e8</page>
+                        <summary>Cluster Nodes Status</summary>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                        <sys_id>8153e0abdb410300b7a35901cf9619f1</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab">633f98abdb010300b7a35901cf9619e9</grid_canvas>
+                                <height>10</height>
+                                <portal_widget display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_widget>
+                                <posx>0</posx>
+                                <posy>20</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>cd53e0abdb410300b7a35901cf9619f2</sys_id>
+                                <sys_mod_count>2</sys_mod_count>
+                                <sys_name>633f98abdb010300b7a35901cf9619e9</sys_name>
+                                <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+                                <sys_policy/>
+                                <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_cd53e0abdb410300b7a35901cf9619f2</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>0553e0abdb410300b7a35901cf9619f2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                                <value>Cluster Nodes Status</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>name</name>
+                                <portal_section display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>4153e0abdb410300b7a35901cf9619f2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                                <value>diagnostic_cluster_nodes</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>8553e0abdb410300b7a35901cf9619f1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                                <value>3e9c0f400a6a803f008c555aeff5b516</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>desc</name>
+                                <portal_section display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>8953e0abdb410300b7a35901cf9619f2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                                <value>Cluster Nodes Status</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer_id</name>
+                                <portal_section display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>8d53e0abdb410300b7a35901cf9619f1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                                <value>3e46f3ebc0a8006600db1faca996365a</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                                <sys_id>c953e0abdb410300b7a35901cf9619f1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:49:43</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderJavascript</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA xLM Dashboard">273f98abdb010300b7a35901cf9619e8</page>
+                        <summary>System UI</summary>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-09-12 18:52:22</sys_created_on>
+                        <sys_id>f7e324ebdb410300b7a35901cf9619d3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab">633f98abdb010300b7a35901cf9619e9</grid_canvas>
+                                <height>10</height>
+                                <portal_widget display_value="Created 2017-09-12 11:52:22">f7e324ebdb410300b7a35901cf9619d3</portal_widget>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:52:22</sys_created_on>
+                                <sys_id>fbe324ebdb410300b7a35901cf9619d4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_name>633f98abdb010300b7a35901cf9619e9</sys_name>
+                                <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+                                <sys_policy/>
+                                <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_fbe324ebdb410300b7a35901cf9619d4</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2017-09-12 11:52:22">f7e324ebdb410300b7a35901cf9619d3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:52:22</sys_created_on>
+                                <sys_id>33e324ebdb410300b7a35901cf9619d4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderMenus</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2017-09-12 11:52:22">f7e324ebdb410300b7a35901cf9619d3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:52:22</sys_created_on>
+                                <sys_id>f3e324ebdb410300b7a35901cf9619d4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                                <value>System UI</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2017-09-12 11:52:22">f7e324ebdb410300b7a35901cf9619d3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-09-12 18:52:22</sys_created_on>
+                                <sys_id>fbe324ebdb410300b7a35901cf9619d3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                                <value>74596e487f000001003872027bb418bb</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab">633f98abdb010300b7a35901cf9619e9</grid_canvas>
+                <height>10</height>
+                <portal_widget display_value="Created 2017-09-12 11:49:43">8153e0abdb410300b7a35901cf9619f1</portal_widget>
+                <posx>0</posx>
+                <posy>20</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-09-12 18:49:43</sys_created_on>
+                <sys_id>cd53e0abdb410300b7a35901cf9619f2</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_name>633f98abdb010300b7a35901cf9619e9</sys_name>
+                <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+                <sys_policy/>
+                <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_cd53e0abdb410300b7a35901cf9619f2</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                <width>12</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab">633f98abdb010300b7a35901cf9619e9</grid_canvas>
+                <height>10</height>
+                <portal_widget display_value="Created 2017-09-12 11:52:22">f7e324ebdb410300b7a35901cf9619d3</portal_widget>
+                <posx>0</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-09-12 18:52:22</sys_created_on>
+                <sys_id>fbe324ebdb410300b7a35901cf9619d4</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_name>633f98abdb010300b7a35901cf9619e9</sys_name>
+                <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+                <sys_policy/>
+                <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_fbe324ebdb410300b7a35901cf9619d4</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-09-12 18:52:22</sys_updated_on>
+                <width>12</width>
+            </sys_grid_canvas_pane>
+        </related_items_node>
+    </sys_grid_canvas>
+</record_update>

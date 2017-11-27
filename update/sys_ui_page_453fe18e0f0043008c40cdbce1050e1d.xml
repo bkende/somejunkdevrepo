@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function onSubmit() {
+	
+	var clientID = document.getElementById('clientID').value;
+	var urlWithoutKey = "http://snowsubscription.azurewebsites.net/xlm/";
+	var urlWithKey = urlWithoutKey + clientID;
+	
+	window.location.href = urlWithKey;
+	
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_138568_xlm_subsc_xLM Subscription HomePage.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<html>
+
+<head>
+<meta charset="utf-8"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<title>xLM ServiceNow app</title>
+<link rel="stylesheet" type="text/css" href="%3D5be40d750f4803008c40cdbce1050ec1%26.cssdbx"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/lumen/bootstrap.min.css"></link>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+<link rel="stylesheet" href="assets/css/user.css"></link>
+	
+<style type="text/css">
+
+.navbar {
+  margin-bottom:0;
+  border:none;
+}
+
+.navbar-brand .glyphicon {
+  margin-right:6px;
+}
+
+
+@media (min-width:992px) {
+  .hero .get-it {
+    text-align:right;
+    margin-top:80px;
+    padding-right:30px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it {
+    text-align:center;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview {
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p {
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:40px;
+}
+
+.hero .get-it .btn {
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+.icon-feature {
+  text-align:center;
+}
+
+.icon-feature .glyphicon {
+  font-size:60px;
+}
+
+section.features {
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2 {
+  color:#fff;
+}
+
+.features .icon-features {
+  margin-top:15px;
+}
+
+.testimonials blockquote {
+  text-align:center;
+}
+
+section.testimonials {
+  margin:50px 0;
+}
+
+.site-footer {
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5 {
+    text-align:left;
+  }
+}
+
+.site-footer h5 {
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover {
+  opacity:1;
+}
+
+.site-footer .social-icons a {
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons {
+    text-align:right;
+  }
+}
+
+</style>
+	
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+<div class="container">
+
+<div class="collapse navbar-collapse" id="navcol-1">
+<ul class="nav navbar-nav navbar-right">
+<li class="active" role="presentation"><a href="https://continuousvalidation.com/">Website</a></li>
+<li role="presentation"><a href="https://continuousvalidation.com/contact/">Contact</a></li>
+<li role="presentation"><a href="https://xlmllc.atlassian.net/servicedesk/customer/portal/2/user/login?destination=portal%2F2">Support</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="jumbotron hero" style="background-image:url(http://i.imgur.com/D0D6Az2.jpg;);">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-md-push-7 phone-preview">
+<div class="iphone-mockup">
+<div class="screen"></div>
+</div>
+</div>
+<div class="col-md-6 col-md-pull-3 get-it" style="width:484px;">
+<h1>xLM Subscription</h1>
+<p>Track of your xLM subscription</p>
+<input type="text" id="clientID" placeholder="Enter your unique xLM key" style="height:36px;width:162px;margin-top:2px;margin-bottom:10px;margin-left:10px;margin-right:0px;"></input>
+<p><a class="btn btn-success btn-lg" onclick="onSubmit()" role="button" href="#" style="width:161px;">Check Subscription</a></p>
+</div>
+</div>
+</div>
+</div>
+<section class="testimonials">
+<h2 class="text-center"> </h2>
+<blockquote>
+<p>Continuous validation is providing documented evidence to certify that a cloud app not only met the pre-established acceptance criteria, but "continues" to meet thus mitigating the risk of unknown changes. </p>
+<footer> Nagesh Nama, Chief Quality Officer (CQO) </footer>
+</blockquote>
+</section>
+
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h5>xLM © 2017</h5></div>
+<div class="col-sm-6 social-icons">
+	<a href="https://twitter.com/xLMCV"><i class="fa fa-twitter"></i></a>
+	<a href="https://www.pinterest.com/xlmcv"><i class="fa fa-pinterest"></i></a>
+	<a href="https://xlmcv.tumblr.com"><i class="fa fa-tumblr"></i></a>
+	<a href="https://www.stumbleupon.com/stumbler/xlmcv?"><i class="fa fa-stumbleupon"></i></a>
+	<a href="https://www.facebook.com/xlmcv"><i class="fa fa-facebook"></i></a>
+	<a href="https://www.linkedin.com/company/xlm-llc"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+</j:jelly>]]></html>
+        <name>xLM Subscription HomePage</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-20 15:28:59</sys_created_on>
+        <sys_id>453fe18e0f0043008c40cdbce1050e1d</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>xLM Subscription HomePage</sys_name>
+        <sys_package display_value="xLM Subscription" source="x_138568_xlm_subsc">d61fedc60f0043008c40cdbce1050e93</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xLM Subscription">d61fedc60f0043008c40cdbce1050e93</sys_scope>
+        <sys_update_name>sys_ui_page_453fe18e0f0043008c40cdbce1050e1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-25 22:05:12</sys_updated_on>
+    </sys_ui_page>
+</record_update>
